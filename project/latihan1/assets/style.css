@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(106, 188, 255);
+    color: rgb(206, 225, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+table{
+    background-color: rgb(113, 233, 217);
+    text-align: center;
+    color: rgb(36, 36, 36);
+}
+
+h1{
+    text-align: center;
+}

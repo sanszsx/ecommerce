@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body{
+    /* background-image: linear-gradient(to right, #74ebd5, #9face6); */
+    background-color: rgb(211, 234, 255);
+    background-position: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper{
+    width: 300px;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.wrapper h1{
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+    border-bottom: 1px solid silver;
+    font-weight: 800;
+}
+
+.wrapper .box-input{
+    margin: 20px 0 10px 0;
+    width: 100%;
+    height: 50px;
+}
+
+.box-input input{
+    justify-items: center;
+    width: 86%;
+    height: 30%;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    outline: none;
+    border-radius: 40px;
+    background: transparent;
+    font-size: 14px;
+    padding: 20px;
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+    padding: 20px 45px 20px 0px;
+}
+
+.accept{
+    width: 100%;
+    padding: 10px 0;
+    /* background-color: aqua; */
+}
+
+.accept label{
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.accept a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 600;
+    color: rgb(56, 56, 255);
+}
+
+.accept a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+.wrapper .btn{
+    justify-items: center;
+    padding: 20px;
+    margin: 0px 0px 30px 0px;
+    width: 87%;
+    height: 50px;
+}
+
+.btn button{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    outline: none;
+    border-radius: 30px;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 800;
+    transition: .5s;
+    color: whitesmoke;
+    background-color: rgba(59, 59, 255, 0.719);
+}
+
+.btn button:hover{
+    color: whitesmoke;
+    background-color: rgba(0, 0, 255, 0.719);
+}
+
+.sign-up{
+    text-align: center;
+    font-size: 12px;
+    margin: 20px 0 20px 0;
+}
+
+.sign-up a{
+    text-decoration: none;
+    color: blue;
+    transition: 0.7s;
+}
+
+.sign-up a:hover{
+    text-decoration: underline;
+    color: red;
+}
